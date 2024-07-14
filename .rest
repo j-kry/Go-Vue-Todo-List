@@ -1,0 +1,16 @@
+###
+GET http://localhost:9090/todos
+###
+POST http://localhost:9090/todos
+
+{
+   "id": "4",
+   "item": "Walk the dog",
+   "completed": false
+}
+###
+GET http://localhost:9090/todos/1
+###
+PATCH http://localhost:9090/todos/3
+###
+DELETE http://localhost:9090/todos/4
